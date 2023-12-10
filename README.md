@@ -14,22 +14,7 @@
 3. Cuatro de enteros entre 0 y 100 representan las puntuaciones de un
    estudiante de un curso de informática. Escribir un programa para
    encontrar la media de estas puntuaciones y visualizar una tabla de
-   notas de acuerdo al siguiente cuadro:
-
----
-
-|Media | puntuación |
-|****\_****|******\_******|
-|[90-100] | A |
-|****\_****|******\_******|
-|[80-90] | B |
-|****\_****|******\_******|
-|[70-80] | C |
-|****\_****|******\_******|
-|[60-70] | D |
-|****\_****|******\_******|
-|[0-60] | E |
-|****\_****|******\_******|
+   notas.
 
 # Cuarto ejercicio
 
