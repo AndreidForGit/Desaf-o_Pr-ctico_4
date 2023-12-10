@@ -26,6 +26,12 @@ int main(){
       cout << arr[i] << " ";
     };
     cout << endl;
+
+    cout << "La secuencia de números en orden descendente seria: ";
+    for (int i = 2; i >= 0; i--){
+      cout << arr[i] << " ";
+    };
+    cout << endl;
     return 0;
       
   }
