@@ -18,18 +18,18 @@ int main(){
     cout << "La secuencia de números " << first << ", " << second << ", " << third <<  " está en orden numérico descendente." << endl;
   } else {
     cout << "La secuencia de números " << first << ", " << second << ", " << third <<  " no está en orden numérico."<<endl;
-    int arr[] = {first, second, third};
-    int n = sizeof(arr) / sizeof(arr[0]);
-    sort(arr, arr + n);
+    int numeros[] = {first, second, third};
+    int n = sizeof(numeros) / sizeof(numeros[0]);
+    sort(numeros, numeros + n);
     cout << "La secuencia de números en orden ascendente seria: ";
     for (int i = 0; i < n; i++){
-      cout << arr[i] << " ";
+      cout << numeros[i] << " ";
     };
     cout << endl;
 
     cout << "La secuencia de números en orden descendente seria: ";
     for (int i = 2; i >= 0; i--){
-      cout << arr[i] << " ";
+      cout << numeros[i] << " ";
     };
     cout << endl;
     return 0;
